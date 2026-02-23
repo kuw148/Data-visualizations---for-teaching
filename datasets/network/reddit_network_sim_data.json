@@ -1,0 +1,376 @@
+{
+  "nodes": [
+    {
+      "id": "SR 1",
+      "label": "Subreddit 1",
+      "subscribers": 2450000.0,
+      "daily_posts": 8200.0,
+      "human": 2156000.0,
+      "bot": 294000.0,
+      "hbr": 7.3,
+      "annotation": "Large general-interest community (\u2248 r/worldnews scale). High subscriber count \u2192 large node. Moderate bot activity."
+    },
+    {
+      "id": "SR 2",
+      "label": "Subreddit 2",
+      "subscribers": 320000.0,
+      "daily_posts": 1100.0,
+      "human": 275000.0,
+      "bot": 45000.0,
+      "hbr": 6.1,
+      "annotation": "Mid-size topical community (\u2248 r/history scale). Healthy human majority."
+    },
+    {
+      "id": "SR 3",
+      "label": "Subreddit 3",
+      "subscribers": 185000.0,
+      "daily_posts": 2900.0,
+      "human": 92500.0,
+      "bot": 92500.0,
+      "hbr": 1.0,
+      "annotation": "\u26a0 High bot presence. Equal human/bot split \u2014 suspicious activity pattern common in engagement-farmed communities."
+    },
+    {
+      "id": "SR 4",
+      "label": "Subreddit 4",
+      "subscribers": 78000.0,
+      "daily_posts": 430.0,
+      "human": 66300.0,
+      "bot": 11700.0,
+      "hbr": 5.7,
+      "annotation": "Small niche community. Low post volume but strong human base."
+    },
+    {
+      "id": "SR 5",
+      "label": "Subreddit 5",
+      "subscribers": 3100000.0,
+      "daily_posts": 11500.0,
+      "human": 2728000.0,
+      "bot": 372000.0,
+      "hbr": 7.3,
+      "annotation": "Largest community in dataset \u2014 hub node. Comparable to r/AskReddit scale. Gateway for cross-posts."
+    },
+    {
+      "id": "SR 6",
+      "label": "Subreddit 6",
+      "subscribers": 420000.0,
+      "daily_posts": 1750.0,
+      "human": 352800.0,
+      "bot": 67200.0,
+      "hbr": 5.3,
+      "annotation": "Mid-size community with above-average post volume relative to subscribers."
+    },
+    {
+      "id": "SR 7",
+      "label": "Subreddit 7",
+      "subscribers": 210000.0,
+      "daily_posts": 3400.0,
+      "human": 84000.0,
+      "bot": 126000.0,
+      "hbr": 0.7,
+      "annotation": "\u26a0 Bot-majority community. Bots outnumber humans \u2014 extreme case, relevant for inauthentic-behaviour studies."
+    },
+    {
+      "id": "SR 8",
+      "label": "Subreddit 8",
+      "subscribers": 495000.0,
+      "daily_posts": 2100.0,
+      "human": 421750.0,
+      "bot": 73250.0,
+      "hbr": 5.8,
+      "annotation": "Upper-mid community, close to 500k ceiling. Active and predominantly human."
+    },
+    {
+      "id": "SR 9",
+      "label": "Subreddit 9",
+      "subscribers": 140000.0,
+      "daily_posts": 1980.0,
+      "human": 70000.0,
+      "bot": 70000.0,
+      "hbr": 1.0,
+      "annotation": "\u26a0 High bot presence. Mirrors Subreddit 3; useful comparison case."
+    },
+    {
+      "id": "SR 10",
+      "label": "Subreddit 10",
+      "subscribers": 265000.0,
+      "daily_posts": 890.0,
+      "human": 231950.0,
+      "bot": 33050.0,
+      "hbr": 7.0,
+      "annotation": "Mid-size community. Relatively quiet (low daily posts) but large and human-dominant."
+    }
+  ],
+  "links": [
+    {
+      "source": "SR 1",
+      "target": "SR 2",
+      "overlap": 0.18,
+      "crossposts": 45.0
+    },
+    {
+      "source": "SR 1",
+      "target": "SR 3",
+      "overlap": 0.08,
+      "crossposts": 12.0
+    },
+    {
+      "source": "SR 1",
+      "target": "SR 4",
+      "overlap": 0.06,
+      "crossposts": 6.0
+    },
+    {
+      "source": "SR 1",
+      "target": "SR 5",
+      "overlap": 0.55,
+      "crossposts": 120.0
+    },
+    {
+      "source": "SR 1",
+      "target": "SR 6",
+      "overlap": 0.14,
+      "crossposts": 33.0
+    },
+    {
+      "source": "SR 1",
+      "target": "SR 7",
+      "overlap": 0.07,
+      "crossposts": 8.0
+    },
+    {
+      "source": "SR 1",
+      "target": "SR 8",
+      "overlap": 0.19,
+      "crossposts": 54.0
+    },
+    {
+      "source": "SR 1",
+      "target": "SR 9",
+      "overlap": 0.09,
+      "crossposts": 10.0
+    },
+    {
+      "source": "SR 1",
+      "target": "SR 10",
+      "overlap": 0.12,
+      "crossposts": 38.0
+    },
+    {
+      "source": "SR 2",
+      "target": "SR 3",
+      "overlap": 0.12,
+      "crossposts": 9.0
+    },
+    {
+      "source": "SR 2",
+      "target": "SR 4",
+      "overlap": 0.11,
+      "crossposts": 4.0
+    },
+    {
+      "source": "SR 2",
+      "target": "SR 5",
+      "overlap": 0.2,
+      "crossposts": 67.0
+    },
+    {
+      "source": "SR 2",
+      "target": "SR 6",
+      "overlap": 0.57,
+      "crossposts": 88.0
+    },
+    {
+      "source": "SR 2",
+      "target": "SR 7",
+      "overlap": 0.09,
+      "crossposts": 5.0
+    },
+    {
+      "source": "SR 2",
+      "target": "SR 8",
+      "overlap": 0.16,
+      "crossposts": 18.0
+    },
+    {
+      "source": "SR 2",
+      "target": "SR 9",
+      "overlap": 0.1,
+      "crossposts": 7.0
+    },
+    {
+      "source": "SR 2",
+      "target": "SR 10",
+      "overlap": 0.14,
+      "crossposts": 14.0
+    },
+    {
+      "source": "SR 3",
+      "target": "SR 4",
+      "overlap": 0.07,
+      "crossposts": 3.0
+    },
+    {
+      "source": "SR 3",
+      "target": "SR 5",
+      "overlap": 0.1,
+      "crossposts": 19.0
+    },
+    {
+      "source": "SR 3",
+      "target": "SR 6",
+      "overlap": 0.11,
+      "crossposts": 11.0
+    },
+    {
+      "source": "SR 3",
+      "target": "SR 7",
+      "overlap": 0.53,
+      "crossposts": 62.0
+    },
+    {
+      "source": "SR 3",
+      "target": "SR 8",
+      "overlap": 0.08,
+      "crossposts": 6.0
+    },
+    {
+      "source": "SR 3",
+      "target": "SR 9",
+      "overlap": 0.48,
+      "crossposts": 55.0
+    },
+    {
+      "source": "SR 3",
+      "target": "SR 10",
+      "overlap": 0.06,
+      "crossposts": 4.0
+    },
+    {
+      "source": "SR 4",
+      "target": "SR 5",
+      "overlap": 0.08,
+      "crossposts": 11.0
+    },
+    {
+      "source": "SR 4",
+      "target": "SR 6",
+      "overlap": 0.13,
+      "crossposts": 9.0
+    },
+    {
+      "source": "SR 4",
+      "target": "SR 7",
+      "overlap": 0.05,
+      "crossposts": 2.0
+    },
+    {
+      "source": "SR 4",
+      "target": "SR 8",
+      "overlap": 0.17,
+      "crossposts": 14.0
+    },
+    {
+      "source": "SR 4",
+      "target": "SR 9",
+      "overlap": 0.06,
+      "crossposts": 3.0
+    },
+    {
+      "source": "SR 4",
+      "target": "SR 10",
+      "overlap": 0.09,
+      "crossposts": 7.0
+    },
+    {
+      "source": "SR 5",
+      "target": "SR 6",
+      "overlap": 0.22,
+      "crossposts": 55.0
+    },
+    {
+      "source": "SR 5",
+      "target": "SR 7",
+      "overlap": 0.11,
+      "crossposts": 14.0
+    },
+    {
+      "source": "SR 5",
+      "target": "SR 8",
+      "overlap": 0.25,
+      "crossposts": 89.0
+    },
+    {
+      "source": "SR 5",
+      "target": "SR 9",
+      "overlap": 0.12,
+      "crossposts": 18.0
+    },
+    {
+      "source": "SR 5",
+      "target": "SR 10",
+      "overlap": 0.6,
+      "crossposts": 145.0
+    },
+    {
+      "source": "SR 6",
+      "target": "SR 7",
+      "overlap": 0.1,
+      "crossposts": 6.0
+    },
+    {
+      "source": "SR 6",
+      "target": "SR 8",
+      "overlap": 0.21,
+      "crossposts": 22.0
+    },
+    {
+      "source": "SR 6",
+      "target": "SR 9",
+      "overlap": 0.09,
+      "crossposts": 8.0
+    },
+    {
+      "source": "SR 6",
+      "target": "SR 10",
+      "overlap": 0.18,
+      "crossposts": 19.0
+    },
+    {
+      "source": "SR 7",
+      "target": "SR 8",
+      "overlap": 0.07,
+      "crossposts": 4.0
+    },
+    {
+      "source": "SR 7",
+      "target": "SR 9",
+      "overlap": 0.51,
+      "crossposts": 49.0
+    },
+    {
+      "source": "SR 7",
+      "target": "SR 10",
+      "overlap": 0.08,
+      "crossposts": 3.0
+    },
+    {
+      "source": "SR 8",
+      "target": "SR 9",
+      "overlap": 0.08,
+      "crossposts": 6.0
+    },
+    {
+      "source": "SR 8",
+      "target": "SR 10",
+      "overlap": 0.15,
+      "crossposts": 17.0
+    },
+    {
+      "source": "SR 9",
+      "target": "SR 10",
+      "overlap": 0.07,
+      "crossposts": 4.0
+    }
+  ]
+}
